@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    background-image: url("../images/backgroundVector.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+a, h1{
+    font-size: 0.8rem;
+    color: #000;
+}
+
+#header{
+    border-bottom: 1px black solid;
+    justify-content: space-between ;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+#logo{
+    width: fit-content;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav{
+   padding: 10px;
+    width: fit-content;
+    display: inline-block;
+}
+
+#main {
+    position: relative;
+    top:50px;
+}
+
+.cards{
+    text-align: center;
+}
+
+.card-frame {
+    padding: 10px;
+    border: 2px grey dashed;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.play-row{
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px rgba(255, 255, 255, 0.61) solid;
+    width: fit-content;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, #236126, rgb(35, 185, 60));  
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+#score-row{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.info-row, .score-text{
+    margin: auto;
+    font-size: 12px;
+    
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.score-box,.score-text{
+    width: 33%;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 200;
+}
+
+#suggestion{
+    font-weight: 100;
+    font-size: 8px;
+    text-align: justify;
+}
+
+.score-box{
+ margin-top: 9px;
+ display: inline-block;
+ padding: 4px;
+ margin: 10px;
+ width: 70%;
+ background-color: #fff;
+ font-size: 45px;
+}
+
+

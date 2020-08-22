@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Cards</title>
+    <link href="./resources/css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div id="header" class="flex-container">
+
+        <div id="logo">
+            <h1>
+                GT
+            </h1>
+        </div>
+        <nav>
+            <span>
+                <a href="https://tarczg.github.io/GT_Website/">Home</a>
+            </span>
+        </nav>
+    </div>
+    <div id="main">
+        <div class="cards">
+            <img id="card1" class="card-frame" src="./resources/images/as.svg">
+            <img id="card2" class="card-frame" src="./resources/images/three.svg">
+            <img id="card3" class="card-frame" src="./resources/images/six.svg">
+        </div>
+        <div id="play" class="play-row"> Play Again
+        </div>
+        <div id="info" class="info-row"> Step 1: Find Ace
+        </div>
+        <table id="score-row">
+            <tr>
+                <th id="firstChoice" class="score-text">
+                    % win: first choice
+                </th>
+                <th class="score-text">
+                    Suggestion:
+                </th>
+                <th id="secondChoice" class="score-text">
+                    % win: second choice
+                </th>
+            </tr>
+            <tr>
+                <th id="firstChoiceWin" class="score-box">
+                    0
+                </th>
+                <th id="suggestion" class="score-text">
+                    The probablity of find the Ace in first move is 1/3. So You have 2/3 chance that You missed. So when
+                    I show You the card in which one there is no Ace should you change Your choice ?
+                </th>
+                <th id="secondChoiceWin" class="score-box">
+                    0
+                </th>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javaScript" src="./resources/js/script.js"></script>
+</body>
+
+</html>
