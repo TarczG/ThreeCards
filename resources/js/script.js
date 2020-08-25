@@ -210,14 +210,11 @@ const selectMove = (card) => {
             }
             
               if(gamesWithChange !=0){
-                buttonWinSecondChoice.innerHTML = Math.round((winWithChange / gamesWithChange) * 100) / 100;
+                buttonWinSecondChoice.innerHTML = Math.round((winWithChange / gamesWithChange) * 100) +'%';
               }  
               if(gamesWithoutChange !=0){
-                buttonWinFirstChoice.innerHTML = Math.round((winWithoutChange / gamesWithoutChange) * 100) / 100;
+                buttonWinFirstChoice.innerHTML = Math.round((winWithoutChange / gamesWithoutChange) * 100)+'%';
               }
-
-
-
 
             break;
     }

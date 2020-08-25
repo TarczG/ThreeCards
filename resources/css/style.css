@@ -46,6 +46,7 @@ nav{
 #main {
     position: relative;
     top:50px;
+    padding-bottom: 50px;
 }
 
 .cards{
@@ -78,13 +79,13 @@ nav{
     text-align: center;
     margin: auto;
     margin-top: 20px;
-    
+    padding-bottom: 20px;
+
 }
 
 .info-row, .score-text{
     margin: auto;
     font-size: 12px;
-    
     color: #fff;
     font-weight: 600;
     text-align: center;
@@ -94,7 +95,9 @@ nav{
     width: 33%;
     margin-top: 10px;
     text-align: center;
+    text-justify: ;
     font-weight: 200;
+
 }
 
 #suggestion{
@@ -104,11 +107,11 @@ nav{
 }
 
 .score-box{
- margin-top: 9px;
+ margin-top: 20px;
  display: inline-block;
  padding: 4px;
  margin: 10px;
- width: 70%;
+ width: 75%;
  background-color: #fff;
  font-size: 45px;
 }
