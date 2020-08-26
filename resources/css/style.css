@@ -3,12 +3,6 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-body{
-    background-image: url("../images/backgroundVector.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
 
 .flex-container {
     display: flex;
@@ -45,8 +39,11 @@ nav{
 
 #main {
     position: relative;
-    top:50px;
-    padding-bottom: 50px;
+    padding-top:50px;
+    background-image: url("../images/backgroundVector.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .cards{
@@ -75,12 +72,11 @@ nav{
 }
 
 #score-row{
-    width: 40%;
+    width: 50%;
     text-align: center;
     margin: auto;
     margin-top: 20px;
-    padding-bottom: 20px;
-
+    padding-bottom: 50px;
 }
 
 .info-row, .score-text{
@@ -110,9 +106,7 @@ nav{
  display: inline-block;
  padding: 4px;
  margin: 10px;
- width: 75%;
+ width: 60%;
  background-color: #fff;
- font-size: 45px;
+ font-size: 20px;
 }
-
-
